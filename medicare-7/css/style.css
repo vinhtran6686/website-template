@@ -777,3 +777,68 @@
 /*==========================
 	End Portfolio CSS
 ============================*/
+
+/*==========================
+	Start PDP CSS
+============================*/
+
+@media (max-width: 768px) {
+  .pdp-carousel .owl-carousel-item {
+    position: relative;
+    min-height: 500px;
+  }
+
+  .pdp-carousel .owl-carousel-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pdp-carousel .owl-carousel-item p {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+
+  .pdp-carousel .owl-carousel-item h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+.pdp-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.pdp-carousel .owl-nav .owl-prev,
+.pdp-carousel .owl-nav .owl-next {
+  margin: 7px 0;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.pdp-carousel .owl-nav .owl-prev:hover,
+.pdp-carousel .owl-nav .owl-next:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+} 
+/*==========================
+	End PDP CSS
+============================*/
